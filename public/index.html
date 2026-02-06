@@ -10,6 +10,18 @@
     <input type="text" id="display" disabled />
 
     <div class="buttons">
+      <!-- Scientific buttons (ADDED) -->
+      <button onclick="append('Math.sin(')">sin</button>
+      <button onclick="append('Math.cos(')">cos</button>
+      <button onclick="append('Math.tan(')">tan</button>
+      <button onclick="append('Math.PI')">π</button>
+
+      <button onclick="append('Math.sqrt(')">√</button>
+      <button onclick="square()">x²</button>
+      <button onclick="append('(')">(</button>
+      <button onclick="append(')')">)</button>
+
+      <!-- Original buttons (UNCHANGED) -->
       <button onclick="clearDisplay()">C</button>
       <button onclick="append('/')">÷</button>
       <button onclick="append('*')">×</button>
