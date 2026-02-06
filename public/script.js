@@ -19,3 +19,12 @@ function calculate() {
     display.value = "Error";
   }
 }
+
+// ✅ ADDED: square function for x² button
+function square() {
+  try {
+    display.value = Math.pow(eval(display.value), 2);
+  } catch {
+    display.value = "Error";
+  }
+}
